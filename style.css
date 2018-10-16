@@ -1,0 +1,349 @@
+/*Empieza Inicio*/
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+ }
+
+ .main-header{
+
+ }
+.img{
+      position: absolute;
+        top: 20px;
+    left: 55px;
+  font-size: 70px;
+color: #ffffff;
+
+}
+.box{
+  font-size: 52px;
+color: #f8f8f8;
+font-family: "Roboto";
+font-weight: bold;
+box-shadow: 0px 3px 7px rgba(0,0,0,0.16);
+position: absolute;
+        top: 415px;
+        padding-left: 217px;
+    padding-right: 230px;;
+}
+.btn-registro{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 324px;
+    height: 32px;
+    border-radius: 39px;
+    background-image: linear-gradient(180deg, #0c6798 0%, #0b657b 100%);
+    border: 1px solid #707070;
+    position: absolute;
+    top: 348px;
+    
+    left: 847px;
+
+  }
+ .logo{
+
+  
+  text-align:center;
+  
+  padding-bottom:8px;
+}
+
+.main-menu{
+
+   position: absolute;
+  top:25px;
+  right:30px;
+}
+.main-menu ul{
+  list-style:none;
+  
+}
+
+.main-menu ul li{
+  display:inline-block;
+  margin:5px 10px;
+}
+.main-menu ul li a{
+  text-decoration:none;
+  color: white;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:5px;
+  transition:all 0.2s ease-in; 
+  font-weight:700:
+  
+}
+
+.main-menu ul li a:hover{
+ color:black;
+  border-bottom:2px solid;
+}
+
+.slider img{
+  width: 100%;
+}
+
+.title-section{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title-planes{
+  
+  font-size: 70px;
+color: #2468b9;
+font-family: "Roboto";
+font-weight: bold;
+text-align: center;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1170px;
+  overflow: hidden;
+  
+}
+
+
+
+.planes .container{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.form{
+  background-color: #0c6798;
+  -webkit-transform:perspective(500px)rotateY(-20deg);
+  transform-origin: 10% 10%;
+  margin:30px;
+}
+.card{
+  width: 494px;
+height: 250px;
+  border: 1px solid #d6d2d2;
+
+  overflow: hidden;
+
+  
+  width: 300px;
+}
+
+.card-hero{
+  display: flex;
+  position: relative;
+}
+
+
+
+
+.card-body{
+
+ width: 300px;
+  background-color: #0c6798;
+  -webkit-transform:perspective(500px)rotateY(-20deg);
+  transform-origin: 10% 10%;
+     padding: 35px;
+    text-align: center;
+    margin: auto
+  
+ 
+}
+
+.card-title{
+ 
+  color: white;
+  text-align: center;
+      margin-right: 26%;
+}
+
+.card-title::after{
+  content: '';
+  background-color: white;
+  height: 1px;
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2px
+}
+
+.card-text{
+  color: black;
+      margin-top: 17%;
+  text-align: center;
+  
+}
+
+.info{
+  
+height: 770px;
+margin-top: 90px;
+background-image: linear-gradient(0deg, #67e8cf 0%, #19396c 100%);
+border: 1px solid #707070;
+}
+
+.info .container{
+
+      margin-left: 180px;
+    margin-top: 95px;
+  
+}
+
+.title-info{
+  font-size: 50px;
+color: #ffffff;
+font-family: "Roboto";
+font-weight: bold;
+    margin-top: 5%;
+    margin-left: 22%;
+
+}
+.footer{
+  font-size: 11px;
+  background-color: #0c6798;
+  color: white;
+  margin-top: 40px;
+text-align: center;
+padding-bottom: 10px;
+padding-top:10px; 
+color: white;
+  }
+/*fin de Inicio*/
+
+
+/*Empieza Registro*/
+.logoMusic{
+  background-color: #32618D;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-align: center;}
+.logoMusic img{ width: 5%; }
+
+/*BTN REGISTRAR CON FB*/
+.Btn-LogiFace{
+  position: absolute;
+  top: 150px;
+  left: 515px;}
+.Btn-LogiFace button{
+  color: #FFFFFF;
+  background-color:#0C6798;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: #0C6798;
+  font-size: 20px;}
+/*FIN BTN FB*/
+
+.Linea ::after {
+  content: '';
+  background: black;
+  height: 2px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 20%;
+  height: 1px;}
+
+/*FORMULARIO*/
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  padding: 0 515px 30px;}
+.contactForm input[type="text"] {display: block;}
+.formControl{
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 20%;
+  margin: 10px 0;
+  padding: 1px 0;
+  width: 300px;}
+/*FIN FORMULARIO*/
+
+/*CARD FECHA*/
+.Cajas{
+  margin-top: -25px;
+  padding-left: 514px;}
+.CodeBox{ margin-right: 61px;}
+/*FIN CARD FECHA*/
+
+/*ACEPTAR TERMINOS*/
+.checkbox{
+  margin-top: 15px;
+    padding-left: 510px;
+    color: #9A9797;}
+/*TERMINOS*/
+
+/*CONFIRMAR REGISTRO*/
+.Btn-Registrar{
+  position: absolute;
+  top: 550px;
+  left: 570px;}
+.Btn-Registrar button {
+  color: #FFFFFF;
+  background-color:#2468B9;
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  border-color: #0C6798;
+  font-size: 18px;}
+/*FIN DE REGISTRO*/
+
+
+/*media query*/
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1440px){
+
+  .btn-registro{
+    
+    top: 348px;
+    
+    left: 600px;
+
+  }
+
+  .Btn-LogiFace button {
+   
+    margin-left: 15%;
+
+}
+.Btn-Registrar button {
+   
+    margin-left: 15%;
+}
+
+}
+
+
+@media screen and (max-width: 360px){
+
+  .btn-registro{
+    
+    top: 348px;
+    
+    left: 600px;
+
+  }
+
+  .Btn-LogiFace button {
+   
+    margin-right: : 85%;
+
+}
+.Btn-Registrar button {
+   
+    margin-left: 15%;
+}
+
+}
